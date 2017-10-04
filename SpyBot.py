@@ -11,28 +11,12 @@ from time import strftime
 from termcolor import colored
 import datetime
 # For attractive console
-print ''
-print ''
-print ''
-print 'Taking u all to the era of 70s'
+print '<------Lets Get Started------>'
 print '|*****************************|'
-print '*'
-print '*'
-print '*'
-print '*'
-print '*'
-print 'Moon Techs'
-print 'Welcomes you to the Future!'
-print '*'
-print '*'
-print '*'
-print '*'
-print '*'
-print '*'
+print 'We Welcomes you to Our Application..!'
 print '|*****************************|'
-print ''
 print 'Featuring the most advanced A.I spy of our time!'
-print 'Heyy'
+print 'Hello Buddy..'
 patternm = '^[Male|MALE|M|m|male]'
 patternf = '^[Female|FEMALE|F|f|female]'
 patterno = '^(OTHER|other|others|OTHERS)'
@@ -41,7 +25,7 @@ patterno = '^(OTHER|other|others|OTHERS)'
 # Simple conversation with user
 # See at the end of the code for alternate way of validation ..*
 def add_spy():
-    print 'Enter Your gender:-'
+    print 'Please Enter Your gender:-'
     while True:
         gender = raw_input('Male or Female or Others:')
         if re.match(patternm, gender) != None:
@@ -51,11 +35,10 @@ def add_spy():
                 if re.match(pattern, spy.name) != None:
                     print ''
                     sleep(0.5)
-                    print 'I am a Spy'
-                    print 'Just for folks!!!\n'
+                    print 'I am a Spy \n'
                     break
                 else:
-                    print 'Enter alphabets only.'
+                    print 'Enter alphabets only..'
             while True:
                 marital = raw_input('Mr.or Master.:')
                 pattern = '^(Mr.|Master.|MR.|MASTER.|mr.|master.)+$'
@@ -105,13 +88,12 @@ def add_spy():
 
         elif re.match(patternf, gender) != None:
             while True:
-                spy.name = raw_input("Enter your name:")
+                spy.name = raw_input("Please Enter your name:")
                 pattern = '^[a-zA-Z\s]+$'
                 if re.match(pattern, spy.name) != None:
                     print ''
                     sleep(0.5)
-                    print 'I am a Spy'
-                    print 'Just for folks!!!\n'
+                    print 'I am a Spy \n'
                     break
                 else:
                     print 'Enter alphabets only.'

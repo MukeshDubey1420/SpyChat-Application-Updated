@@ -27,12 +27,12 @@ class ChatMessage:
         self.sender = sender
 
 # Spy class has been initialized with some values.
-spy = Spy('Alpha', 'Mr.', 24, 3.4, 'Not Married')
+spy = Spy('Mukesh Dubey', 'Mr.', 21, 4.7, 'Married')
 
 # Few friends pre-added
-friend_one = Spy('Delta', 'Mr.', 27, 3.5, 'Not Married')
-friend_two = Spy('Charlie', 'Ms.', 33, 3.7, 'Married')
-friend_three = Spy('Tango', 'Mr.', 35, 3.9, 'Married')
+friend_one = Spy('Mukesh Dubey', 'Mr.', 27, 3.5, 'Not Married')
+friend_two = Spy('Nitika Sharma', 'Ms.', 33, 3.7, 'Married')
+friend_three = Spy('Rohit Malhotra', 'Mr.', 35, 3.9, 'Married')
 
 # Friends list contains 3 friends.
 friends = [friend_one, friend_two, friend_three]
